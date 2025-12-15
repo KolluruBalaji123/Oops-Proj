@@ -18,6 +18,9 @@ public class Substringsdemo {
 		 System.out.println(a[0]);
 		 System.out.println(a[1]);
 		 String amount ="$15,20,30";
+		 String amount1 = "123,abc@xyz";
+		 String arr[]=amount1.split(",");
+		 System.out.println(Arrays.toString(arr));
 		 
 		 System.out.println(amount.replace("$", ""));
 		 
