@@ -9,7 +9,6 @@ public class StudentMain {
 		st1.designation="software";
 		st1.phn=91820345;
 		st1.display();
-
 	}
 
 }
